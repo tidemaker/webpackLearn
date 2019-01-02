@@ -1,0 +1,41 @@
+Arguments: 
+  E:\node\ins\node.exe E:\node\ins\npm_global\node_modules\yarn\bin\yarn.js add HtmlWebpackPlugin
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\git\ins\cmd;E:\node\ins\;E:\node\ins\npm_global
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  11.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/HtmlWebpackPlugin: Not found
+      at Request.params.callback [as _callback] (E:\node\ins\npm_global\node_modules\yarn\lib\cli.js:65894:18)
+      at Request.self.callback (E:\node\ins\npm_global\node_modules\yarn\lib\cli.js:129018:22)
+      at Request.emit (events.js:188:13)
+      at Request.<anonymous> (E:\node\ins\npm_global\node_modules\yarn\lib\cli.js:129990:10)
+      at Request.emit (events.js:188:13)
+      at IncomingMessage.<anonymous> (E:\node\ins\npm_global\node_modules\yarn\lib\cli.js:129912:12)
+      at Object.onceWrapper (events.js:276:13)
+      at IncomingMessage.emit (events.js:193:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at process.internalTickCallback (internal/process/next_tick.js:72:19)
+
+npm manifest: 
+  {
+    "name": "03_manage_output",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
